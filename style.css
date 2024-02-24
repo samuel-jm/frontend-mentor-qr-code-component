@@ -1,4 +1,18 @@
-@import url("https://fonts.google.com/specimen/Outfit");
+@font-face {
+  font-display: swap;
+  font-family: "jom";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/Outfit/woff2/outfit-v11-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "jom";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/Outfit/woff2/outfit-v11-latin-700.woff2") format("woff2");
+}
 
 * {
     padding: 0;
@@ -40,7 +54,7 @@ body {
 }
 
 .qr-component {
-    font-family: "Outfit", sans-serif;
+    font-family: "jom", sans-serif;
 }
 
 .text {
